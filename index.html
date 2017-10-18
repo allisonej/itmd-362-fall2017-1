@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <title>Eun Ji: Project 1</title>
-  <link rel="stylesheet" href="screen.css" />
-  <script src="myjavascript.js"></script>
+  <link rel="stylesheet" media="screen" href="./CSS/screen.css" />
+  <script src="./javascript/myjavascript.js"></script>
 </head>
 <!--tag: div, class: .top id: #top-->
 <body>
-  <h1 align="center">Join this project</h1>
-  <h3 align="center">To join this project, enter the follows</h3>
-  <div id="Middle" class="tranparent8" align="center">
-      <label>Name: </label><input type="text" name="full_name" id="" placeholder="Full Name">
-      <br><br>
-      <label>Email: </label><input type="email" name="e_mail" id="" placeholder="aaa@bbb.ccc">
-      <br><br>
-      <label>Phone Number: </label><input type="number" name="phone_umber" id="" placeholder="(999)999-9999">
-      <br><br>
-      <button type="button" onclick="myFunction()">Join</button>
-  </div>
+  <header>
+    <h1>Join this project</h1>
+    <h3>To join this project, enter the follow</h3>
+  </header>
+  <form method="get" action="#null" autocomplete="on">
+    <fieldset id="Middle" class="transparent8">
+      <legend>Enter Information</legend>
+      <ol>
+        <li>
+          <label>Name: </label>
+          <input type="text" name="fullname" id="fullname" placeholder="Full Name" required/>
+        </li>
+        <li>
+          <label>Email: </label>
+          <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="aaa@bbb.ccc" required/>
+        </li>
+        <li>
+          <label>Phone Number: </label>
+          <input type="number" name="phonenumber" id="phonenumber" placeholder="(999)999-9999" required/>
+        </li>
+        <li id="check-line">
+          <div id="alt-box"></div>
+          <input type="checkbox" id="in-class" name="checkclass" value="">
+          <label for="in-class" id="chack-label">I am taking itmd-362 class, now.</label>
+        </li>
+        <li id="button-line">
+          <input type="reset" value="reset"/>
+          <input type="submit" value="join" onclick="myFunction()"/>
+        </li>
+      </ol>
+    </fieldset>
+  </form>
 </body>
 </html>
