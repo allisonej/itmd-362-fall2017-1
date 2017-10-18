@@ -59,6 +59,10 @@ table {
  */
 
 html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.375em; /* 22px */
+	line-height: 1.182em; /* 26px / ~ 120% */
+	padding: 1.182em; /* 26px / ~ 120% */
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -73,9 +77,6 @@ html {
 
 body {
   margin: 0;
-	padding-top: 3.667em; /* 66 / 18 = 3.667... */
-	padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
-	padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
   background-image: url("../image/skyblueImg.jpg");
 }
 
@@ -97,13 +98,31 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-header{
-	align-content: center;
+h1 {
+  font-size: 2.7em;
+  margin: 0.67em 0;
+	font-weight: bold;
 }
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+h2 {
+	font-size: 1.5em;
+	margin: 0.83em, 0;
+
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em, 0;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em, 0;
+}
+
+header {
+	font-family: 'Fjalla One', sans-serif;
 }
 
 /* Grouping content
@@ -299,7 +318,6 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -503,20 +521,45 @@ template {
   display: none;
 }
 
-#Middle{
+#Middle {
      position:absolute;
-     width:480px;
-     height:160px;
+     width:50%;
+     height:50%auto;
      z-index:15;
-     top:50%;
+     top:20%;
      left:50%;
-     margin:-100px 0 0 -260px;
+     margin:-10% 0 0 -260px;
      padding: 35px;
-     background-color: #FFFFFF;
+}
+
+#Whiteboard {
+	background-color: #FFFFFF;
 }
 
 .tranparent8{
   zoom: 1;
   filter: alpha(opacity=80);
   opacity: 0.8;
+}
+
+li, li{
+	padding-bottom: 0.5em;
+}
+
+header, form{
+	padding-bottom: 0.8em;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
 }

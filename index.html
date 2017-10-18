@@ -6,26 +6,27 @@
   <title>Eun Ji: Project 1</title>
   <link rel="stylesheet" media="screen" href="./CSS/screen.css" />
   <script src="./javascript/myjavascript.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
 </head>
 <!--tag: div, class: .top id: #top-->
-<body>
+<body id="Middle">
   <header>
+    <img id="heading-image" src="./image/64px-Checklist_Noun_project.png" alt="project image">
     <h1>Join this project</h1>
-    <h3>To join this project, enter the follow</h3>
+    <p>To join this project, enter the follow</p>
   </header>
   <form method="get" action="#null" autocomplete="on">
-    <fieldset id="Middle" class="transparent8">
-      <legend>Enter Information</legend>
+    <fieldset id="Whiteboard" class="transparent8">
       <ol>
-        <li>
+        <li id="name-line">
           <label>Name: </label>
           <input type="text" name="fullname" id="fullname" placeholder="Full Name" required/>
         </li>
-        <li>
+        <li id="email-line">
           <label>Email: </label>
           <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="aaa@bbb.ccc" required/>
         </li>
-        <li>
+        <li id="number-line">
           <label>Phone Number: </label>
           <input type="number" name="phonenumber" id="phonenumber" placeholder="(999)999-9999" required/>
         </li>
@@ -41,5 +42,6 @@
       </ol>
     </fieldset>
   </form>
+  <footer>Written by Eunji Allison Jun</footer>
 </body>
 </html>
