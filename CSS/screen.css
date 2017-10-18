@@ -522,13 +522,7 @@ template {
 }
 
 #Middle {
-     position:absolute;
-     width:50%;
-     height:50%auto;
-     z-index:15;
-     top:20%;
-     left:50%;
-     margin:-10% 0 0 -260px;
+     vertical-align: middle;
      padding: 35px;
 }
 
