@@ -58,6 +58,7 @@ table {
  *    IE on Windows Phone and in iOS.
  */
 
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.375em; /* 22px */
@@ -543,7 +544,7 @@ template {
 	background-color: #FFFFFF;
 }
 
-.tranparent8{
+.transparent8{
   filter: alpha(opacity=80);
   opacity: 0.8;
 }
