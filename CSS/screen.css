@@ -553,15 +553,11 @@ template {
 }
 
 li, li{
-	padding-bottom: 0.5em;
+	padding-bottom: 0.7em;
 }
 
 header, form{
 	padding-bottom: 0.8em;
-}
-
-p {
-	font-size: 1.3em;
 }
 
 footer {
