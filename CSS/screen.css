@@ -570,3 +570,12 @@ footer {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 }
+
+#heading1{
+	font-size: 2.7em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+ font-weight: bold;	 
+}
